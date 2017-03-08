@@ -1,0 +1,8 @@
+<h2> Saved bookmarks: </h2>
+<ol id='links'>
+  <% @links.each do |link| %>
+    <li>
+    <%= link.title %> :   <%= link.url   %>
+    </li>
+  <% end %>
+</ol>
